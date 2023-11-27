@@ -20,7 +20,9 @@ const Hero: FC = () => {
           <h3 className="text-white text-xl mt-5">
             Profesjonalna obsługa na wysokim poziomie
           </h3>
-          <Button className="w-60 mt-5">Sprawdź ofertę</Button>
+          <div className="w-56">
+            <Button className="mt-5">Sprawdź ofertę</Button>
+          </div>
         </div>
       </div>
     </section>

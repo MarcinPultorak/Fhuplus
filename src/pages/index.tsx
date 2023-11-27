@@ -1,4 +1,3 @@
-import { Inter } from "next/font/google";
 import Hero from "@/components/feature/Hero";
 import Offer from "@/components/feature/Offer";
 import AboutUs from "@/components/feature/AboutUs";
