@@ -43,7 +43,7 @@ const Offer: FC = () => {
               <h2 className="font-bold text-2xl mt-3">
                 <span className="text-red">U</span>sługi
               </h2>
-              <ul className="mt-8 list-disc text-justify">
+              <ul className="mt-8 list-disc">
                 <li>ustawianie geometrii kół</li>
                 <li>komputerowa diagnostyka</li>
                 <li>przygotowanie samochodów do przeglądów technicznych</li>
@@ -67,7 +67,7 @@ const Offer: FC = () => {
               <h2 className="font-bold text-2xl mt-3">
                 <span className="text-red">N</span>aprawy
               </h2>
-              <ul className="mt-8 list-disc text-justify">
+              <ul className="mt-8 list-disc">
                 <li>silników</li>
                 <li>układu zawieszenia</li>
                 <li>układu kierowniczego i sprawdzenie jego stanu</li>
@@ -90,7 +90,7 @@ const Offer: FC = () => {
               <h2 className="font-bold text-2xl mt-3">
                 <span className="text-red">W</span>ymiany
               </h2>
-              <ul className="mt-8 list-disc text-justify">
+              <ul className="mt-8 list-disc">
                 <li>sprzęgła</li>
                 <li>rozrządów (przy zastosowaniu profesjonalnych blokad)</li>
                 <li>pomp wody i termostatów</li>
