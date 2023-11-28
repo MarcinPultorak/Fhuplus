@@ -12,15 +12,15 @@ const AboutUs: FC = () => {
           backgroundSize: "cover",
         }}
       ></div>
-      <div className="w-full bg-neutral-800 flex flex-col py-20 relative">
-        <h2 className="absolute -top-8 -left-3 uppercase text-[256px] font-bold text-gray-300 opacity-10 z-10 leading-none select-none">
+      <div className="w-full bg-neutral-800 flex flex-col py-10 lg:py-20 relative">
+        <h2 className="absolute top-0 sm:-top-4 lg:-top-8 lg:-left-3 uppercase text-7xl sm:text-9xl lg:text-[256px] font-bold text-gray-300 opacity-10 z-10 leading-none select-none">
           FHU Plus
         </h2>
         <div className="max-w-screen-2xl mx-auto flex flex-col items-center px-5 z-20">
-          <h2 className="text-white text-4xl font-bold tracking-widest">
+          <h2 className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold tracking-widest">
             <span className="text-red">K</span>ilka słów o nas
           </h2>
-          <p className="text-white max-w-7xl mt-20 text-justify">
+          <p className="text-xs sm:text-sm lg:text-base text-white max-w-7xl mt-10 lg:mt-20 text-justify">
             Nasza firma, z korzeniami sięgającymi 1996 roku, od 2001 roku
             specjalizuje się w obszarze serwisu samochodów osobowych oraz
             sprzedaży nowych części do pojazdów marek FIAT, LANCIA i ALFA ROMEO.

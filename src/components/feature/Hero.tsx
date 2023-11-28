@@ -11,13 +11,13 @@ const Hero: FC = () => {
         fill
         className="object-cover absolute -z-10"
       />
-      <div className="max-w-screen-2xl h-full mx-auto flex items-center px-10">
-        <div className="w-1/2 flex flex-col ">
-          <h2 className="uppercase text-red text-xl">FHU Plus</h2>
-          <h1 className="uppercase text-white text-7xl font-bold">
+      <div className="max-w-screen-2xl h-full mx-auto flex sm:items-center py-32 sm:py-0 px-5 sm:px-10">
+        <div className="sm:w-1/2 flex flex-col ">
+          <h2 className="uppercase text-red text-lg sm:text-xl">FHU Plus</h2>
+          <h1 className="uppercase text-white text-4xl sm:text-6xl md:text-7xl font-bold">
             Serwis samochodowy mierzyn
           </h1>
-          <h3 className="text-white text-xl mt-5">
+          <h3 className="text-white text:lg sm:text-xl mt-5">
             Profesjonalna obsługa na wysokim poziomie
           </h3>
           <div className="w-56">

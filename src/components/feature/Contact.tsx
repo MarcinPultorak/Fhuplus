@@ -10,11 +10,11 @@ const Contact: FC = () => {
         fill
         className="object-cover absolute -z-10"
       />
-      <div className="max-w-screen-2xl w-full mx-auto px-5 pt-20 pb-32 flex flex-col items-center">
-        <h2 className="text-4xl font-bold tracking-widest">
+      <div className="max-w-screen-2xl w-full mx-auto px-5 pt-10 lg:pt-20 pb-32 flex flex-col items-center">
+        <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold tracking-widest">
           <span className="text-red">G</span>dzie nas znaleźć
         </h2>
-        <div className="w-full h-full mt-20 flex justify-center">
+        <div className="w-full h-full mt-10 lg:mt-20 flex justify-center">
           <Image
             src={"/images/mapa.png"}
             alt="mapa"
@@ -22,7 +22,7 @@ const Contact: FC = () => {
             height={400}
             className=" border border-neutral-800 z-20"
           />
-          <div className="bg-gray-800 max-w-xl flex flex-col text-white justify-between py-8 pr-8 pl-44 -ml-32 translate-y-12">
+          <div className="bg-gray-800 max-w-xl flex flex-col text-white justify-between py-8 pr-8 pl-44 -ml-32 translate-y-12 text-xs sm:text-sm lg:text-base">
             <div className="flex flex-col">
               <p className="text-red">FHU PLUS</p>
               <p>
