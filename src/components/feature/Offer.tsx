@@ -38,14 +38,16 @@ const Offer: FC = () => {
               <h2 className="font-bold text-lg md:text-xl lg:text-2xl mt-3">
                 <span className="text-red-500">U</span>sługi
               </h2>
-              <ul className="mt-8 list-disc text-xs sm:text-sm lg:text-base">
-                <li>ustawianie geometrii kół</li>
-                <li>komputerowa diagnostyka</li>
-                <li>przygotowanie samochodów do przeglądów technicznych</li>
-                <li>wulkanizacja</li>
-                <li>przeglądy okresowe</li>
-                <li>serwis ogumienia</li>
-              </ul>
+              <div className="max-w-md w-full">
+                <ul className="mt-8 list-disc text-xs sm:text-sm lg:text-base">
+                  <li>ustawianie geometrii kół</li>
+                  <li>komputerowa diagnostyka</li>
+                  <li>przygotowanie samochodów do przeglądów technicznych</li>
+                  <li>wulkanizacja</li>
+                  <li>przeglądy okresowe</li>
+                  <li>serwis ogumienia</li>
+                </ul>
+              </div>
             </div>
             <div
               className="flex flex-col items-center w-full lg:min-h-[480px] bg-white py-8 px-10 xl:px-20"
@@ -61,13 +63,15 @@ const Offer: FC = () => {
               <h2 className="font-bold text-lg md:text-xl lg:text-2xl mt-3">
                 <span className="text-red-500">N</span>aprawy
               </h2>
-              <ul className="mt-8 list-disc text-xs sm:text-sm lg:text-base">
-                <li>silników</li>
-                <li>układu zawieszenia</li>
-                <li>układu kierowniczego i sprawdzenie jego stanu</li>
-                <li>układu hamulcowego</li>
-                <li>elektryki oraz elektroniki samochodowej</li>
-              </ul>
+              <div className="max-w-md w-full">
+                <ul className="mt-8 list-disc text-xs sm:text-sm lg:text-base">
+                  <li>silników</li>
+                  <li>układu zawieszenia</li>
+                  <li>układu kierowniczego i sprawdzenie jego stanu</li>
+                  <li>układu hamulcowego</li>
+                  <li>elektryki oraz elektroniki samochodowej</li>
+                </ul>
+              </div>
             </div>
             <div
               className="flex flex-col items-center w-full lg:min-h-[480px] bg-white py-8 px-10 xl:px-20"
@@ -83,17 +87,19 @@ const Offer: FC = () => {
               <h2 className="font-bold text-lg md:text-xl lg:text-2xl mt-3">
                 <span className="text-red-500">W</span>ymiany
               </h2>
-              <ul className="mt-8 list-disc text-xs sm:text-sm lg:text-base ">
-                <li>sprzęgła</li>
-                <li>rozrządów (przy zastosowaniu profesjonalnych blokad)</li>
-                <li>pomp wody i termostatów</li>
-                <li>łożysk</li>
-                <li>przegubów</li>
-                <li>olejów</li>
-                <li>płynów eksploatacyjnych</li>
-                <li>filtrów</li>
-                <li>świec (żarowych i zapłonowych)</li>
-              </ul>
+              <div className="max-w-md w-full">
+                <ul className="mt-8 list-disc text-xs sm:text-sm lg:text-base ">
+                  <li>sprzęgła</li>
+                  <li>rozrządów (przy zastosowaniu profesjonalnych blokad)</li>
+                  <li>pomp wody i termostatów</li>
+                  <li>łożysk</li>
+                  <li>przegubów</li>
+                  <li>olejów</li>
+                  <li>płynów eksploatacyjnych</li>
+                  <li>filtrów</li>
+                  <li>świec (żarowych i zapłonowych)</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
