@@ -5,3 +5,11 @@
 :root {
   color-scheme: only light;
 }
+
+@media (prefers-color-scheme: dark)
+{
+  :root {
+    background-color: white;
+    color: black
+  }
+}
