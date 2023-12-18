@@ -32,10 +32,10 @@ export default function Document() {
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              const preferredTheme = localStorage.getItem('preferredTheme');
+              const themeToUse = 'light';
               document.documentElement.classList.remove('light', 'dark');
-              document.documentElement.classList.add("light");
-              localStorage.setItem('preferredTheme', "light");
+              document.documentElement.classList.add(themeToUse);
+              localStorage.setItem('preferredTheme', themeToUse);
             `,
           }}
         />
