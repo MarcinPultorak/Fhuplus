@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en" className="scroll-smooth">
       <Head>
-        <meta name="color-scheme" content="only light" />
+        {/* <meta name="color-scheme" content="only light" /> */}
         <title>
           Serwis Samochodowy Mierzyn | FHUPLUS - Mechanik Samochodowy
         </title>
