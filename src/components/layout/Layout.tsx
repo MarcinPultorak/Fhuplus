@@ -9,7 +9,7 @@ const Layout: FC<
   return (
     <div
       className={cx(
-        "flex min-h-screen w-full flex-1 flex-col bg-cover overflow-x-hidden",
+        "flex min-h-screen w-full flex-1 flex-col bg-cover overflow-x-hidden text-black",
         props.className
       )}
     >
