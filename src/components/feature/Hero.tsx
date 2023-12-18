@@ -18,7 +18,7 @@ const Hero: FC = () => {
             FHU Plus
           </h2>
           <h1 className="uppercase text-white text-4xl sm:text-6xl md:text-7xl font-bold">
-            Serwis samochodowy
+            Serwis samochodowy mierzyn
           </h1>
           <h3 className="text-white text:lg sm:text-xl mt-5">
             Profesjonalna obsługa na wysokim poziomie
