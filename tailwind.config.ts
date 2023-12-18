@@ -20,7 +20,7 @@ const config: Config = {
         sans: ["var(--font-poppins)"],
       },
     },
-    darkMode: false,
+    darkMode: "false",
   },
   plugins: [],
 };
