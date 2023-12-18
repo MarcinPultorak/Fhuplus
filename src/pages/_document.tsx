@@ -4,7 +4,6 @@ export default function Document() {
   return (
     <Html lang="en" className="scroll-smooth">
       <Head>
-        {/* <meta name="color-scheme" content="only light" /> */}
         <link
           rel="apple-touch-icon"
           sizes="180x180"
