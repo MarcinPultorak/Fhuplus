@@ -26,6 +26,10 @@ export default function Document() {
           Serwis Samochodowy Mierzyn | FHUPLUS - Mechanik Samochodowy
         </title>
         <meta
+          name="google-site-verification"
+          content="1xmVEBcnNNWfZpaGD9WEPl81skvrpvlBe-mbAXZZ0WI"
+        />
+        <meta
           name="description"
           content="FHUPLUS to profesjonalny serwis samochodowy w Mierzynie. Oferujemy kompleksowe usługi mechaniczne dla Twojego pojazdu. Skorzystaj z doświadczenia naszych mechaników samochodowych."
         ></meta>
